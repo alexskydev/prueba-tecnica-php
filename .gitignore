@@ -1,0 +1,21 @@
+# Archivos generados durante la ejecución
+/storage/*
+!/storage/.htaccess
+
+# Configuración local, credenciales y variables de entorno
+.env
+.env.*
+config.local.php
+
+# Archivos temporales del sistema y editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.zip
+
+# Exportaciones locales de bases de datos
+*.sql.gz
+*.sql.zip
